@@ -1,0 +1,42 @@
+2022-03-18 08:58:15,686:INFO: Loading the datasets...
+2022-03-18 08:58:26,386:INFO: - done.
+2022-03-18 08:58:38,729:INFO: Starting training for 100 epoch(s)
+2022-03-18 12:03:23,312:INFO: Loading the datasets...
+2022-03-18 12:03:51,216:INFO: - done.
+2022-03-18 12:04:03,778:INFO: Starting training for 100 epoch(s)
+2022-03-18 12:11:29,837:INFO: Loading the datasets...
+2022-03-18 12:11:30,097:INFO: - done.
+2022-03-18 12:11:30,224:INFO: Starting training for 100 epoch(s)
+2022-03-18 12:11:30,226:INFO: Restoring parameters from experiments/base_experiments/base_resnet18/tiny_imagenet/almost_done.pth.tar
+2022-03-18 12:11:56,638:INFO: Loading the datasets...
+2022-03-18 12:11:56,868:INFO: - done.
+2022-03-18 12:11:57,010:INFO: Starting training for 100 epoch(s)
+2022-03-18 12:11:57,012:INFO: Restoring parameters from experiments/base_experiments/base_resnet18/tiny_imagenet/almost_done.pth.tar
+2022-03-18 12:13:30,502:INFO: Loading the datasets...
+2022-03-18 12:13:30,756:INFO: - done.
+2022-03-18 12:13:30,885:INFO: Starting training for 100 epoch(s)
+2022-03-18 12:13:30,903:INFO: Epoch 1/100, lr:0.0
+2022-03-18 12:17:45,530:INFO: Loading the datasets...
+2022-03-18 12:17:45,765:INFO: - done.
+2022-03-18 12:17:45,921:INFO: Starting training for 100 epoch(s)
+2022-03-18 12:17:45,933:INFO: Epoch 1/100, lr:0.0
+2022-03-18 12:19:48,002:INFO: Loading the datasets...
+2022-03-18 12:19:48,255:INFO: - done.
+2022-03-18 12:19:48,437:INFO: Starting training for 100 epoch(s)
+2022-03-18 12:19:48,450:INFO: Epoch 1/100, lr:0.0
+2022-03-18 12:21:05,706:INFO: Loading the datasets...
+2022-03-18 12:21:05,939:INFO: - done.
+2022-03-18 12:21:06,121:INFO: Starting training for 100 epoch(s)
+2022-03-18 12:21:06,123:INFO: Restoring parameters from experiments/base_experiments/base_resnet18/tiny_imagenet/None.pth.tar
+2022-03-18 12:23:00,843:INFO: Loading the datasets...
+2022-03-18 12:23:01,095:INFO: - done.
+2022-03-18 12:23:01,225:INFO: Starting training for 100 epoch(s)
+2022-03-18 12:23:01,228:INFO: Restoring parameters from experiments/base_experiments/base_resnet18/tiny_imagenet/None.pth.tar
+2022-03-18 12:41:03,893:INFO: Loading the datasets...
+2022-03-18 12:45:20,147:INFO: - done.
+2022-03-18 12:45:31,948:INFO: Starting training for 100 epoch(s)
+2022-03-18 12:45:31,950:INFO: Restoring parameters from experiments/base_experiments/base_resnet18/tiny_imagenet/None.pth.tar
+2022-03-18 12:46:49,573:INFO: Loading the datasets...
+2022-03-18 12:46:51,352:INFO: - done.
+2022-03-18 12:46:51,477:INFO: Starting training for 100 epoch(s)
+2022-03-18 12:46:51,913:INFO: Epoch 1/100, lr:0.0

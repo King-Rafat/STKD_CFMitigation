@@ -1,0 +1,33 @@
+2022-04-18 17:21:16,816:INFO: Loading the datasets...
+2022-04-18 17:21:38,600:INFO: - done.
+2022-04-18 17:21:51,150:INFO: Starting training for 100 epoch(s)
+2022-04-18 17:21:51,363:INFO: Epoch 1/100, lr:0.0
+2022-04-18 17:22:07,504:INFO: - Train accuracy:  20.3200, training loss:  2.4811
+2022-04-18 17:22:16,902:INFO: - Eval metrics, acc:10.8800, loss: 44.6096
+2022-04-18 17:22:20,187:INFO: - Found new best accuracy
+2022-04-18 17:22:20,770:INFO: Epoch 2/100, lr:0.1
+2022-04-18 17:22:36,855:INFO: - Train accuracy:  21.9000, training loss:  2.1268
+2022-04-18 17:22:46,550:INFO: - Eval metrics, acc:23.2000, loss: 2.1933
+2022-04-18 17:22:47,707:INFO: - Found new best accuracy
+2022-04-18 17:22:47,755:INFO: Epoch 3/100, lr:0.1
+2022-04-18 17:23:03,705:INFO: - Train accuracy:  26.4800, training loss:  1.9644
+2022-04-18 17:23:13,058:INFO: - Eval metrics, acc:25.5800, loss: 1.8831
+2022-04-18 17:23:14,130:INFO: - Found new best accuracy
+2022-04-18 17:23:14,155:INFO: Epoch 4/100, lr:0.1
+2022-04-18 17:23:30,032:INFO: - Train accuracy:  26.5800, training loss:  1.9102
+2022-04-18 17:23:39,438:INFO: - Eval metrics, acc:29.5600, loss: 1.8662
+2022-04-18 17:23:40,434:INFO: - Found new best accuracy
+2022-04-18 17:23:40,468:INFO: Epoch 5/100, lr:0.1
+2022-04-18 17:23:56,358:INFO: - Train accuracy:  30.6000, training loss:  1.7896
+2022-04-18 17:24:05,730:INFO: - Eval metrics, acc:32.6000, loss: 1.7432
+2022-04-18 17:24:06,733:INFO: - Found new best accuracy
+2022-04-18 17:24:06,758:INFO: Epoch 6/100, lr:0.1
+2022-04-18 17:29:15,300:INFO: Loading the datasets...
+2022-04-18 17:29:21,749:INFO: - done.
+2022-04-18 17:33:24,120:INFO: Loading the datasets...
+2022-04-18 17:33:30,405:INFO: - done.
+2022-04-18 17:33:32,519:INFO: Starting training for 100 epoch(s)
+2022-04-18 17:33:41,966:INFO: - Eval metrics, acc:94.9600, loss: 0.0000
+2022-04-18 17:33:41,970:INFO: Epoch 1/100, lr:0.0
+2022-04-18 17:33:52,137:INFO: - Eval metrics, acc:94.9600, loss: 0.0000
+2022-04-18 17:33:52,140:INFO: Epoch 1/100, lr:0.002499999999375
