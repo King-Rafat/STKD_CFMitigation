@@ -99,18 +99,21 @@ class ResNet(nn.Module):
         feature3 = self.avg_pool(out).view(out.size(0), -1)
         # feature3: [batch_size, 2048]
         out = self.layer3(out) # shape: [batch_size, 256, 8, 8]
-        feature2 = F.avg_pool2d(out, out.size(-1))  # [batch_size, channel_num]
+        feature2 = F.avg_pool2d(out, int(out.size(-1)))  # [batch_size, channel_num]
         feature2 = torch.squeeze(feature2)
         # feature2: [batch_size, 1024]
-        out = self.layer4(out)
-        #print(out.shape)
-        feature1 = F.avg_pool2d(out, out.size(-1))  # average pooling to [batch_size, channel_num]
+        out = self.layer4(out) # shape: [batch_size, 512, 4, 4]
+        # print(out.shape)
+        feature1 = F.avg_pool2d(out, int(out.size(-1)))  # average pooling to [batch_size, channel_num]
         feature1 = torch.squeeze(feature1)
-        #print(feature1.shape)
-        out = F.avg_pool2d(out, 4)
+        # out = F.avg_pool2d(out, 8) ## here 8 for tinyimagenet(3,64,64), 4 for cifar10/cifar100 (3,32,32)
+        out = F.adaptive_avg_pool2d(out, 1)
+        # print(out.shape)
         out = out.view(out.size(0), -1)
+        # print(out.shape)
         #feature1 = out    # [batch_size, 512]
         out = self.linear(out)
+        # print(out.shape)
 
         return out #, feature1, feature2 #, feature3, feature4
 
@@ -120,7 +123,7 @@ def ResNet18(**kwargs):
 def ResNet34(**kwargs):
     return ResNet(BasicBlock, [3,4,6,3], **kwargs)
 
-def ResNet50(**kwargs):
+def resnet50(**kwargs):
     return ResNet(Bottleneck, [3,4,6,3], **kwargs)
 
 def ResNet101(**kwargs):
