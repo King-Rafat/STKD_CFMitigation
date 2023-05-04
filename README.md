@@ -43,4 +43,4 @@ Website: http://host.robots.ox.ac.uk/pascal/VOC/
 
 File: http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar, and http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar
 
-
+Pretrained Models: https://figshare.com/articles/online_resource/Pretrained_Models_for_the_paper_Mitigating_Carbon_Footprint_for_Knowledge_Distillation-Based_Deep_Learning_Model_Compression_accepted_into_PLOS_one_/22761962
