@@ -1,4 +1,7 @@
-# Official Repository for the paper accepted in PLOS ONE journal under the name Mitigating Carbon Footprint for Knowledge Distillation Based Deep Learning Model Compression
+# Mitigating Carbon Footprint for Knowledge Distillation Based Deep Learning Model Compression
+
+* The code is the official implementation of the work "[Mitigating Carbon Footprint for Knowledge Distillation Based Deep Learning Model Compression](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0285668)" in PLOS One. Published: May 15, 2023, DOI: https://doi.org/10.1371/journal.pone.0285668
+
 
 Github Repository for DATA-FREE KNOWLEDGE DISTILLATION: https://github.com/zju-vipa/CMI
 
