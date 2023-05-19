@@ -65,12 +65,19 @@ https://figshare.com/articles/online_resource/Pretrained_Models_for_the_paper_Mi
 * `Experiments` : consists of JSON files for carrying out experiments.
 * `model` : Consists of model architectures that can be used.
 
+### How to run
+- 
 
 ### Used Repositories
 
 * Github Repository for DATA-FREE KNOWLEDGE DISTILLATION: https://github.com/zju-vipa/CMI
 
 * Github Repository for OBJECT DETECTION KNOWLEDGE DISTILLATION: https://github.com/SsisyphusTao/Object-Detection-Knowledge-Distillation/tree/mbv2-lite
+
+### Dependencies
+- python>=3.7
+- pytorch==1.12.1, torchvision==0.13.1, torchaudio==0.12.1, cudatoolkit=11.3
+- carbontracker
 
 <!-- ## Contact and Checkout the Authors:
 Sadia Islam: sadia.islam5@northsouth.edu
@@ -85,18 +92,13 @@ Dr. Nabeel Mohammad: nabeel.mohammed@northsouth.edu -->
 If you use this code and model and dataset splits for your research, please consider citing:
 
 ```
-@article{10.1371/journal.pone.0285668,
-    doi = {10.1371/journal.pone.0285668},
-    author = {Rafat, Kazi AND Islam, Sadia AND Mahfug, Abdullah Al AND Hossain, Md. Ismail AND Rahman, Fuad AND Momen, Sifat AND Rahman, Shafin AND Mohammed, Nabeel},
-    journal = {PLOS ONE},
-    publisher = {Public Library of Science},
-    title = {Mitigating carbon footprint for knowledge distillation based deep learning model compression},
-    year = {2023},
-    month = {05},
-    volume = {18},
-    url = {https://doi.org/10.1371/journal.pone.0285668},
-    pages = {1-22},
-    abstract = {Deep learning techniques have recently demonstrated remarkable success in numerous domains. Typically, the success of these deep learning models is measured in terms of performance metrics such as accuracy and mean average precision (mAP). Generally, a model’s high performance is highly valued, but it frequently comes at the expense of substantial energy costs and carbon footprint emissions during the model building step. Massive emission of CO2 has a deleterious impact on life on earth in general and is a serious ethical concern that is largely ignored in deep learning research. In this article, we mainly focus on environmental costs and the means of mitigating carbon footprints in deep learning models, with a particular focus on models created using knowledge distillation (KD). Deep learning models typically contain a large number of parameters, resulting in a ‘heavy’ model. A heavy model scores high on performance metrics but is incompatible with mobile and edge computing devices. Model compression techniques such as knowledge distillation enable the creation of lightweight, deployable models for these low-resource devices. KD generates lighter models and typically performs with slightly less accuracy than the heavier teacher model (model accuracy by the teacher model on CIFAR 10, CIFAR 100, and TinyImageNet is 95.04%, 76.03%, and 63.39%; model accuracy by KD is 91.78%, 69.7%, and 60.49%). Although the distillation process makes models deployable on low-resource devices, they were found to consume an exorbitant amount of energy and have a substantial carbon footprint (15.8, 17.9, and 13.5 times more carbon compared to the corresponding teacher model). The enormous environmental cost is primarily attributable to the tuning of the hyperparameter, Temperature (τ). In this article, we propose measuring the environmental costs of deep learning work (in terms of GFLOPS in millions, energy consumption in kWh, and CO2 equivalent in grams). In order to create lightweight models with low environmental costs, we propose a straightforward yet effective method for selecting a hyperparameter (τ) using a stochastic approach for each training batch fed into the models. We applied knowledge distillation (including its data-free variant) to problems involving image classification and object detection. To evaluate the robustness of our method, we ran experiments on various datasets (CIFAR 10, CIFAR 100, Tiny ImageNet, and PASCAL VOC) and models (ResNet18, MobileNetV2, Wrn-40-2). Our novel approach reduces the environmental costs by a large margin by eliminating the requirement of expensive hyperparameter tuning without sacrificing performance. Empirical results on the CIFAR 10 dataset show that the stochastic technique achieves an accuracy of 91.67%, whereas tuning achieves an accuracy of 91.78%—however, the stochastic approach reduces the energy consumption and CO2 equivalent each by a factor of 19. Similar results have been obtained with CIFAR 100 and TinyImageNet dataset. This pattern is also observed in object detection classification on the PASCAL VOC dataset, where the tuning technique performs similarly to the stochastic technique, with a difference of 0.03% mAP favoring the stochastic technique while reducing the energy consumptions and CO2 emission each by a factor of 18.5.},
-    number = {5},
-
+@article{rafat2023mitigating,
+  title={Mitigating carbon footprint for knowledge distillation based deep learning model compression},
+  author={Rafat, Kazi and Islam, Sadia and Mahfug, Abdullah Al and Hossain, Md Ismail and Rahman, Fuad and Momen, Sifat and Rahman, Shafin and Mohammed, Nabeel},
+  journal={Plos one},
+  volume={18},
+  number={5},
+  pages={e0285668},
+  year={2023},
+  publisher={Public Library of Science San Francisco, CA USA}
 }
