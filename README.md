@@ -16,6 +16,10 @@ Figure 1: Illustration of carbon footprints used by different deep models while 
 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/King-Rafat/STKD_CFMitigation/blob/main/Figures/journal.pone.0285668.t004.PNG)
 
+### Dependencies
+- python>=3.7
+- pytorch==1.12.1, torchvision==0.13.1, torchaudio==0.12.1, cudatoolkit=11.3
+- carbontracker
 
 ### Datasets
 
@@ -66,7 +70,10 @@ https://figshare.com/articles/online_resource/Pretrained_Models_for_the_paper_Mi
 * `model` : Consists of model architectures that can be used.
 
 ### How to run
-- 
+- Change the dataset under "Dataset Assignment" to use different dataset. Currently available for CIFAR 10, CIFAR 100, and Tiny ImageNet. Can include new custom datasets for new data. 
+- Change KD train model dir and choose teacher-student combinations according to requirement and cmnt out base train.
+- To run base train comment out KD train and choose appropriate model to train.
+- Change Arment passing for different teacher free training.
 
 ### Used Repositories
 
@@ -74,10 +81,7 @@ https://figshare.com/articles/online_resource/Pretrained_Models_for_the_paper_Mi
 
 * Github Repository for OBJECT DETECTION KNOWLEDGE DISTILLATION: https://github.com/SsisyphusTao/Object-Detection-Knowledge-Distillation/tree/mbv2-lite
 
-### Dependencies
-- python>=3.7
-- pytorch==1.12.1, torchvision==0.13.1, torchaudio==0.12.1, cudatoolkit=11.3
-- carbontracker
+
 
 <!-- ## Contact and Checkout the Authors:
 Sadia Islam: sadia.islam5@northsouth.edu
