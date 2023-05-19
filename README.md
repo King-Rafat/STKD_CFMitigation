@@ -72,14 +72,14 @@ https://figshare.com/articles/online_resource/Pretrained_Models_for_the_paper_Mi
 
 * Github Repository for OBJECT DETECTION KNOWLEDGE DISTILLATION: https://github.com/SsisyphusTao/Object-Detection-Knowledge-Distillation/tree/mbv2-lite
 
-## Contact and Checkout the Authors:
+<!-- ## Contact and Checkout the Authors:
 Sadia Islam: sadia.islam5@northsouth.edu
 
 Abdullah Al Mahfug: abdullah.mahfug@northsouth.edu
 
 Md. Ismail Hossain: ismail.hossain2018@northsouth.edu
 
-Dr. Nabeel Mohammad: nabeel.mohammed@northsouth.edu
+Dr. Nabeel Mohammad: nabeel.mohammed@northsouth.edu -->
 
 ## Cite This Paper
 If you use this code and model and dataset splits for your research, please consider citing:
